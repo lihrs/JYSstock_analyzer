@@ -31,8 +31,8 @@ DATA_CONFIG = {
 
 # 调度配置
 SCHEDULE_CONFIG = {
-    'analysis_time': '16:00',    # 盘后分析时间
-    'email_time': '16:30',       # 收盘后发送邮件时间(分析完成后半小时)
+    'analysis_time': '01:00',    # 盘后分析时间
+    'email_time': '01:30',       # 收盘后发送邮件时间(分析完成后半小时)
     'weekdays_only': True,       # 仅工作日运行
     'immediate_email': True      # 分析完成后立即发送邮件
 }
